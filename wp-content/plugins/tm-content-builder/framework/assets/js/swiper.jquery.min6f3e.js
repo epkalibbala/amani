@@ -4,13 +4,13 @@
  * 
  * http://www.idangero.us/swiper/
  * 
- * Copyright 2016, Vladimir Kharlampidi
+ * Copyright 2022, Vladimir Kharlampidi
  * The iDangero.us
  * http://www.idangero.us/
  * 
  * Licensed under MIT
  * 
- * Released on: February 7, 2016
+ * Released on: February 7, 2022
  */
 (function () {
     'use strict';
