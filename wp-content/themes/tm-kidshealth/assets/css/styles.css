@@ -825,7 +825,7 @@
 	.cta-form_submit.btn:after {color: #fff;}
 	.cta-form_submit.btn:hover {box-shadow: 0 0 10px #ee008c;background-color: #ee008c;}
 	.cta-form_submit.btn:hover:after {color: #ee008c;}
-	.invert .cta-form_submit.btn,.invert .cta-form_submit.btn:focus {color: #292929;background-color: #b2d18c;}
+	.invert .cta-form_submit.btn,.invert .cta-form_submit.btn:focus {color: #fff;background-color: #b2d18c;}
 	.invert .cta-form_submit.btn:hover {color: #fff;background-color: #87c445;}
 	.cherry-services.template-media-icon .services-item:nth-child(3n+1) {background-color: #ffa12f;}
 	.cherry-services.template-media-icon .services-item:nth-child(3n+2) {background-color: #ff5b48;}
