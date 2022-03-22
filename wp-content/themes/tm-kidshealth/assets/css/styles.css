@@ -242,7 +242,7 @@
 	.sidebar .follow-block {background-color: #ee008c;}
 	.subscribe-block__input { color: #747474; }
 	.subscribe-block__submit.btn-secondary,.subscribe-block__submit.btn-secondary:focus {background-color: #87c445;}
-	.subscribe-block__submit.btn-secondary:hover {background-color: #292929;}
+	.subscribe-block__submit.btn-secondary:hover {background-color: #87c445;}
 	.position-one-right-sidebar .subscribe-block__input[type='email']:focus,.position-one-left-sidebar .subscribe-block__input[type='email']:focus {box-shadow:inset 0 -5px 0 0 #ff5b48;}
 	.invert .subscribe-block__submit.btn-secondary,.after-content-full-width-area .subscribe-block__submit.btn-secondary,.invert .subscribe-block__submit.btn-secondary:focus,.after-content-full-width-area .subscribe-block__submit.btn-secondary:focus {color: #292929;background-color: #e3e3e3;border-color: #e3e3e3;}
 	.subscribe-block__submit.btn-secondary:hover ,.invert .subscribe-block__submit.btn-secondary:hover,.after-content-full-width-area .subscribe-block__submit.btn-secondary:hover {color: #fff;background-color: #87c445;}
@@ -654,7 +654,7 @@
 	.gradient_horizontal {background: #00b3fe;background: -moz-linear-gradient(180deg, #00b3fe 0%, #00b3fe 30%, #01edc9 80%);background: -webkit-linear-gradient(180deg, #00b3fe 0%,#00b3fe 30%,#01edc9 80%);background: linear-gradient(180deg, #00b3fe 0%,#00b3fe 30%,#01edc9 80%);}
 	/* #Button Appearance Styles (regular scheme) */
 	.btn, .submit {font-family: Poppins, sans-serif;font-weight: 500;color: #fff;background-color: #292929 ;}
-	.btn-default,.btn-primary,.btn-secondary,.btn-default:hover,.btn-primary:hover,.btn-secondary:hover {color: #fff;}
+	.btn-default,.btn-primary,.btn-secondary,.btn-default:hover,.btn-primary:hover,.btn-secondary:hover {color: #87c445;}
 	.btn-default {color: #fff;background-color: #b2d18c;}
 	.btn-default:hover {background-color: #87c445;}
 	.btn-primary,.btn-primary:focus {color: #fff;background-color: #b2d18c ;}
@@ -673,7 +673,7 @@
 	.invert .btn-primary,.invert .btn-primary:focus {color: #292929;background-color: #fff;border-color: #fff;}
 	.invert .btn-primary:hover {color: #fff;background-color: rgba(255,255,255,0.3);box-shadow: none;}
 	.invert .btn-secondary,.invert .btn-secondary:focus {color: #292929;background-color: #e3e3e3;border-color: #e3e3e3;}
-	.invert .btn-secondary:hover {color: #fff;background-color: rgba(255,255,255,0.3);box-shadow: none;}
+	.invert .btn-secondary:hover {color: #fff;background-color: #87c445;box-shadow: none;}
 	.invert .footer-area .btn-primary:hover {color: #fff;}
 	/* #Widgets (defaults) */
 	.widget li {color: #292929;}.invert .widget li {color: #fff;}
@@ -706,10 +706,10 @@
 	.invert .instagram__cover {background-color: #fff;color: #ee008c;}
 	.sidebar .follow-block {background-color: #ee008c;}.subscribe-block__input { color: #747474; }
 	.subscribe-block__submit.btn-secondary,.subscribe-block__submit.btn-secondary:focus {background-color: #b2d18c;}
-	.subscribe-block__submit.btn-secondary:hover {background-color: #292929;}
+	.subscribe-block__submit.btn-secondary:hover {background-color: #87c445;}
 	.position-one-right-sidebar .subscribe-block__input[type='email']:focus,.position-one-left-sidebar .subscribe-block__input[type='email']:focus {box-shadow:inset 0 -5px 0 0 #ff5b48;}
 	.invert .subscribe-block__submit.btn-secondary,.after-content-full-width-area .subscribe-block__submit.btn-secondary,.invert .subscribe-block__submit.btn-secondary:focus,.after-content-full-width-area .subscribe-block__submit.btn-secondary:focus {color: #292929;background-color: #e3e3e3;border-color: #e3e3e3;}
-	.subscribe-block__submit.btn-secondary:hover ,.invert .subscribe-block__submit.btn-secondary:hover,.after-content-full-width-area .subscribe-block__submit.btn-secondary:hover {color: #fff;background-color: #e63f59;}
+	.subscribe-block__submit.btn-secondary:hover ,.invert .subscribe-block__submit.btn-secondary:hover,.after-content-full-width-area .subscribe-block__submit.btn-secondary:hover {color: #fff;background-color: #87c445;}
 	#tm_builder_outer_content .tm_pb_slider p{font-weight: 700;}
 	#tm_builder_outer_content .tm_pb_slider.invert .tm_pb_more_button{color: #fff;background-color: #b2d18c;}
 	#tm_builder_outer_content .tm_pb_slider.invert .tm_pb_more_button_invert {color: #292929;background-color: #fff;}
