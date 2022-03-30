@@ -47,7 +47,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 .mfp-figure small{color:#BDBDBD;display:block;font-size:12px;line-height:14px}
 .mfp-figure figure{margin:0}
 .mfp-bottom-bar{margin-top:-36px;position:absolute;top:100%;left:0;width:100%;cursor:auto}
-.mfp-title{text-align:left;line-height:18px;color:#F3F3F3;word-wrap:break-word;padding-right:36px}
+.mfp-title{text-align:left;line-height:18px;color:#e7d7dc;word-wrap:break-word;padding-right:36px}
 .mfp-image-holder .mfp-content{max-width:100%}
 .mfp-gallery .mfp-image-holder .mfp-figure{cursor:pointer}
 @media screen and (max-width:800px) and (orientation:landscape),screen and (max-height:300px){.mfp-img-mobile .mfp-image-holder{padding-left:0;padding-right:0}
