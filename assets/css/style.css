@@ -1281,11 +1281,11 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #1977cc;
+  color: #ee008c;
   float: left;
   width: 44px;
   height: 44px;
-  background: #d6e9fa;
+  background: #e7d7dc;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1309,7 +1309,7 @@ section {
   margin-top: 40px;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #1977cc;
+  background: #ee008c;
   color: #fff;
 }
 .contact .php-email-form {
@@ -1368,15 +1368,15 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #1977cc;
+  background: #b2d18c;
   border: 0;
   padding: 10px 35px;
   color: #fff;
   transition: 0.4s;
-  border-radius: 50px;
+  /* border-radius: 50px; */
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #1c84e3;
+  background: #87c445;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1406,7 +1406,7 @@ section {
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #fff;
-  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+  box-shadow: 0px 2px 15px #e7d7dc;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
