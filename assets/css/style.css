@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #1977cc;
+  color: #ee008c;
   text-decoration: none;
 }
 
@@ -489,29 +489,29 @@ section {
 }
 .section-title h2 {
   font-size: 32px;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #2c4964;
+  color: #292929;
 }
-.section-title h2::before {
+/* .section-title h2::before {
   content: "";
   position: absolute;
   display: block;
   width: 120px;
   height: 1px;
-  background: #ddd;
+  background: #b2d18c;
   bottom: 1px;
   left: calc(50% - 60px);
-}
-.section-title h2::after {
+} */
+.section-title h2::before {
   content: "";
   position: absolute;
   display: block;
   width: 40px;
   height: 3px;
-  background: #1977cc;
+  background: #b2d18c;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -557,7 +557,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #6c757d;
+  color: #b2d18c;
   content: "/";
 }
 @media (max-width: 768px) {
@@ -1030,7 +1030,7 @@ section {
 }
 .doctors .member {
   position: relative;
-  box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+  box-shadow: 0px 2px 15px #e7d7dc;
   padding: 30px;
   border-radius: 10px;
 }
@@ -1052,7 +1052,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #2c4964;
+  color: #292929;
 }
 .doctors .member span {
   display: block;
@@ -1067,7 +1067,7 @@ section {
   display: block;
   width: 50px;
   height: 1px;
-  background: #b2c8dd;
+  background: #b2d18c;
   bottom: 0;
   left: 0;
 }
@@ -1089,7 +1089,7 @@ section {
   border-radius: 50px;
   width: 32px;
   height: 32px;
-  background: #a0bcd5;
+  background: #ee008c;
 }
 .doctors .member .social a i {
   color: #fff;
@@ -1185,7 +1185,7 @@ section {
   padding: 30px 30px 30px 60px;
   margin: 30px 15px;
   min-height: 200px;
-  box-shadow: 0px 2px 12px rgba(44, 73, 100, 0.08);
+  box-shadow: 0px 2px 12px #e7d7dc;
   position: relative;
   background: #fff;
 }
@@ -1208,7 +1208,7 @@ section {
   margin: 0;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #badaf7;
+  color: #e7d7dc;
   font-size: 26px;
 }
 .testimonials .testimonial-item .quote-icon-left {
@@ -1235,10 +1235,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1977cc;
+  border: 1px solid #ee008c;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1977cc;
+  background-color: #ee008c;
 }
 @media (max-width: 767px) {
   .testimonials .testimonial-wrap {
