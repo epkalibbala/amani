@@ -480,7 +480,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f1f7fd;
+  background-color: #e7d7dc;
 }
 
 .section-title {
@@ -524,9 +524,9 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background-color: #f1f7fd;
+  background-color: #fff;
   min-height: 40px;
-  margin-top: 120px;
+  margin-top: 40px;
 }
 @media (max-width: 992px) {
   .breadcrumbs {
@@ -958,15 +958,15 @@ section {
   padding: 10px 12px;
 }
 .appointment .php-email-form button[type=submit] {
-  background: #1977cc;
+  background: #b2d18c;
   border: 0;
   padding: 10px 35px;
   color: #fff;
   transition: 0.4s;
-  border-radius: 50px;
+  /* border-radius: 50px; */
 }
 .appointment .php-email-form button[type=submit]:hover {
-  background: #1c84e3;
+  background: #87c445;
 }
 
 /*--------------------------------------------------------------
@@ -1529,3 +1529,4 @@ section {
   color: #fff;
   text-decoration: none;
 }
+.clear:before,.clear:after,.comment-body:before,.comment-body:after,.entry-content:before,.entry-content:after,.entry-footer:before,.entry-footer:after,.comment-content:before,.comment-content:after,.site-header:before,.site-header:after,.site-content:before,.site-content:after,.site-footer:before,.site-footer:after{content:"";display:table;table-layout:fixed}.clear:after,.comment-body:after,.entry-content:after,.entry-footer:after,.comment-content:after,.site-header:after,.site-content:after,.site-footer:after{clear:both}
