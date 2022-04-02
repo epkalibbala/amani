@@ -46,8 +46,8 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1977cc;
-  border-top-color: #d1e6f9;
+  border: 6px solid #ee008c;
+  border-top-color: #e7d7dc;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1977cc;
+  background: #ee008c;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #298ce5;
+  background: #ee008c;
   color: #fff;
 }
 .back-to-top.active {
