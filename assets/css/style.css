@@ -475,7 +475,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 0 0 60px 0;
+  padding: 10px 0 60px 0;
   overflow: hidden;
 }
 
@@ -1026,6 +1026,7 @@ section {
 # Doctors
 --------------------------------------------------------------*/
 .doctors {
+  /* background: #e7d7dc; */
   background: #fff;
 }
 .doctors .member {
@@ -1075,13 +1076,29 @@ section {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
-.doctors .member .social {
+/* .doctors .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+} */
+.doctors .featurette .social {
   margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.doctors .member .social a {
+/* .doctors .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #ee008c;
+} */
+.doctors .featurette .social a {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
@@ -1091,15 +1108,26 @@ section {
   height: 32px;
   background: #ee008c;
 }
-.doctors .member .social a i {
+/* .doctors .member .social a i {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 2px;
+} */
+.doctors .featurette .social a i {
   color: #fff;
   font-size: 16px;
   margin: 0 2px;
 }
-.doctors .member .social a:hover {
+/* .doctors .member .social a:hover {
   background: #1977cc;
+} */
+.doctors .featurette .social a:hover {
+  background: #ee008c;
 }
-.doctors .member .social a + a {
+/* .doctors .member .social a + a {
+  margin-left: 8px;
+} */
+.doctors .featurette .social a + a {
   margin-left: 8px;
 }
 
