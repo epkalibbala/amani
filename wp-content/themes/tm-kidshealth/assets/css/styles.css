@@ -261,7 +261,7 @@
 	#tm_builder_outer_content .invert .tm_pb_contact_form .tm_pb_contact_submit.tm_pb_button {color: #fff;background-color: #b2d18c;}
 	#tm_builder_outer_content .invert .tm_pb_contact_form .tm_pb_contact_submit.tm_pb_button:hover {color: #87c445;background-color: #fff;}
 	#tm_builder_outer_content .tm_pb_blog .entry-title a{color: #292929;}
-	#tm_builder_outer_content .tm_pb_blog .entry-title a:hover{color: #87c445;}
+	#tm_builder_outer_content .tm_pb_blog .entry-title a:hover{color: #ee008c;}
 	#tm_builder_outer_content .tm_pb_blog .tm_pb_post_meta a{color: #747474;}
 	#tm_builder_outer_content .tm_pb_blog .published,#tm_builder_outer_content .tm_pb_blog .tm_pb_post_meta a:hover{color: #ff5b48;}
 	#tm_builder_outer_content .tm_pb_module.tm_pb_circle_counter .percent {color: #ffa12f;}
@@ -917,7 +917,7 @@
 	#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-time-rail .mejs-time-handle,#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-horizontal-volume-handle,#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-controls .mejs-horizontal-volume-current {background-color: #fff;}
 	#tm_builder_outer_content .tm_pb_module.tm_pb_audio_module .mejs-time-float .mejs-time-float-corner {border-color: #ee008c transparent transparent;}
 	#tm_builder_outer_content .tm_pb_blog .entry-title a{color: #292929;}
-	#tm_builder_outer_content .tm_pb_blog .entry-title a:hover{color: #87c445;}
+	#tm_builder_outer_content .tm_pb_blog .entry-title a:hover{color: #ee008c;}
 	#tm_builder_outer_content .tm_pb_blog .tm_pb_post_meta a{color: #747474;}
 	#tm_builder_outer_content .tm_pb_blog .published,#tm_builder_outer_content .tm_pb_blog .tm_pb_post_meta a:hover{color: #ff5b48;}
 	#tm_builder_outer_content .tm_pb_module.tm_pb_team_member .tm-pb-icon,#tm_builder_outer_content .tm_pb_module.tm_pb_team_member .tm-pb-icon:hover{color: #ee008c;}
