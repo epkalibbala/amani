@@ -55,13 +55,6 @@
       body: formData,
       headers: {'X-Requested-With': 'XMLHttpRequest'}
     })
-    .then(response => {
-      if( response.ok ) {
-        return response.text()
-      } else {
-        throw new Error(`${response.status} ${response.statusText} ${response.url}`); 
-      }
-    })
     .then(data => {
       thisForm.querySelector('.loading').classList.remove('d-block');
       if (data.trim() == 'OK') {
@@ -74,7 +67,7 @@
     .catch((error) => {
       displayError(thisForm, error);
     });
-  }
+}
 
   function displayError(thisForm, error) {
     thisForm.querySelector('.loading').classList.remove('d-block');

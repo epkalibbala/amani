@@ -315,57 +315,65 @@ body.custom-background { background-color: #ffffff; }
 		<p>Book your appointment online with the top Amani children's clinic Doctors. Get the best medical consultation & treatment with the best doctors at Amani children's clinic.</p>
 	  </div>
 
-	  <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
-		<div class="row">
-		  <div class="col-md-4 form-group">
-			<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-			<div class="validate"></div>
-		  </div>
-		  <div class="col-md-4 form-group mt-3 mt-md-0">
-			<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-			<div class="validate"></div>
-		  </div>
-		  <div class="col-md-4 form-group mt-3 mt-md-0">
-			<input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-			<div class="validate"></div>
-		  </div>
-		</div>
-		<div class="row">
-		  <div class="col-md-4 form-group mt-3">
-			<input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-			<div class="validate"></div>
-		  </div>
-		  <div class="col-md-4 form-group mt-3">
-			<select name="department" id="department" class="form-select">
-			  <option value="">Select Department</option>
-			  <option value="Department 1">Department 1</option>
-			  <option value="Department 2">Department 2</option>
-			  <option value="Department 3">Department 3</option>
-			</select>
-			<div class="validate"></div>
-		  </div>
-		  <div class="col-md-4 form-group mt-3">
-			<select name="doctor" id="doctor" class="form-select">
-			  <option value="">Select Doctor</option>
-			  <option value="Doctor 1">Lucy Amaniyo</option>
-			  <option value="Doctor 2">Musa Kawuka</option>
-			  <option value="Doctor 3">Ivan Muyanja</option>
-			</select>
-			<div class="validate"></div>
-		  </div>
-		</div>
-
-		<div class="form-group mt-3">
-		  <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
-		  <div class="validate"></div>
-		</div>
-		<div class="mb-3">
-		  <div class="loading">Loading</div>
-		  <div class="error-message"></div>
-		  <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
-		</div>
-		<div class="text-center"><button type="submit">Make an Appointment</button></div>
-	  </form>
+	  <form action="https://script.google.com/macros/s/AKfycbwFeB8eASWTI0vExcPFnZI2tW4KJQNTjJ92ry23hjPNgFAvKO9nEb7j5itAyqHDQUz77A/exec" method="post" role="form" class="php-email-form" id="gform">
+			<div class="row">
+			  <div class="col-md-4 form-group">
+				<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" >
+				<div class="validate"></div>
+			  </div>
+			  <div class="col-md-4 form-group mt-3 mt-md-0">
+				<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+				<div class="validate"></div>
+			  </div>
+			  <div class="col-md-4 form-group mt-3 mt-md-0">
+				<input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+				<div class="validate"></div>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-md-4 form-group mt-3">
+				<input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+				<div class="validate"></div>
+			  </div>
+			  <div class="col-md-4 form-group mt-3">
+				<select name="department" id="department" class="form-select">
+				  <option value="">Select Department</option>
+				  <option value="Department 1">Department 1</option>
+				  <option value="Department 2">Department 2</option>
+				  <option value="Department 3">Department 3</option>
+				</select>
+				<div class="validate"></div>
+			  </div>
+			  <div class="col-md-4 form-group mt-3">
+				<select name="doctor" id="doctor" class="form-select">
+				  <option value="">Select Doctor</option>
+				  <option value="Lucy Amaniyo">Lucy Amaniyo</option>
+				  <option value="Musa Kawuka">Musa Kawuka</option>
+				  <option value="Ivan Muyanja">Ivan Muyanja</option>
+				</select>
+				<div class="validate"></div>
+			  </div>
+			</div>
+  
+			<div class="form-group mt-3">
+			  <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+			  <div class="validate"></div>
+			</div>
+			<div class="mb-3">
+			  <div class="loading">Loading</div>
+			  <div class="error-message"></div>
+			  <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
+			</div>
+			<div class="text-center"><button type="submit" id="submit-form" style="height: 4rem;">Make an Appointment</button></div>
+			<!-- <div class="tm_pb_button_module_wrapper tm_pb_button_alignment_center tm_pb_module">
+				<a class="tm_pb_button tm_pb_custom_button_icon  tm_pb_button_2 tm_pb_module tm_pb_bg_layout_light tm_pb_icon_right" href="#!" data-icon="&#xf18e;">Make an Appointment</a>
+			</div> -->
+			<!-- <div style="display:none" class="thankyou_message">
+				 You can customize the thankyou message by editing the code below
+				<h2><em>Thanks</em> for contacting us! We will get back to you soon!
+				</h2>
+			   </div> -->
+		  </form>
 
 	</div>
   </section><!-- End Appointment Section -->
@@ -526,6 +534,7 @@ var tm_pb_custom = {"ajaxurl":"http:\/\/ld-wp.template-help.com\/wordpress_63374
 
   <!-- Template Main JS File -->
   <script src="../../assets/js/main.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="../../assets/js/form-submission-handler.js"></script>
 
 </body>
 

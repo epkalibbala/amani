@@ -957,7 +957,7 @@ body.custom-background { background-color: #ffffff; }
 			<p>Book your appointment online with the top Amani children's clinic Doctors. Get the best medical consultation & treatment with the best doctors at Amani children's clinic.</p>
 		  </div>
   
-		  <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+		  <form action="https://script.google.com/macros/s/AKfycbwFeB8eASWTI0vExcPFnZI2tW4KJQNTjJ92ry23hjPNgFAvKO9nEb7j5itAyqHDQUz77A/exec" method="post" role="form" class="php-email-form" id="gform">
 			<div class="row">
 			  <div class="col-md-4 form-group">
 				<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" >
@@ -1006,10 +1006,15 @@ body.custom-background { background-color: #ffffff; }
 			  <div class="error-message"></div>
 			  <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
 			</div>
-			<!-- <div class="text-center"><button type="submit">Make an Appointment</button></div> -->
-			<div class="tm_pb_button_module_wrapper tm_pb_button_alignment_center tm_pb_module" >
+			<div class="text-center"><button type="submit" id="submit-form" style="height: 4rem;">Make an Appointment</button></div>
+			<!-- <div class="tm_pb_button_module_wrapper tm_pb_button_alignment_center tm_pb_module">
 				<a class="tm_pb_button tm_pb_custom_button_icon  tm_pb_button_2 tm_pb_module tm_pb_bg_layout_light tm_pb_icon_right" href="#!" data-icon="&#xf18e;">Make an Appointment</a>
-			</div>
+			</div> -->
+			<!-- <div style="display:none" class="thankyou_message">
+				 You can customize the thankyou message by editing the code below
+				<h2><em>Thanks</em> for contacting us! We will get back to you soon!
+				</h2>
+			   </div> -->
 		  </form>
   
 		</div>
@@ -1635,10 +1640,67 @@ var tm_pb_custom = {"ajaxurl":"http:\/\/ld-wp.template-help.com\/wordpress_63374
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script>
+	var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycbwFeB8eASWTI0vExcPFnZI2tW4KJQNTjJ92ry23hjPNgFAvKO9nEb7j5itAyqHDQUz77A/exec'
+
+	$('#submit-form').on('click', function(e) {
+	e.preventDefault();
+	var jqxhr = $.ajax({
+		url: url,
+		method: "POST",
+		dataType: "json",
+		data: $form.serializeObject()
+	}).success(
+		// do something
+	);
+	})
+  </script>
+  <!-- <script>
+	$(document).ready(function(){
+	  $.fn.serializeObject = function()
+		  {
+		   var o = {};
+		   var a = this.serializeArray();
+		   $.each(a, function() {
+			   if (o[this.name]) {
+				   if (!o[this.name].push) {
+					   o[this.name] = [o[this.name]];
+				   }
+				   o[this.name].push(this.value || '');
+			   } else {
+				   o[this.name] = this.value || '';
+			   }
+		   });
+		   return o;
+		  };
+		var form = $('form#test-form'),
+		  url = 'https://script.google.com/macros/s/AKfycbwFeB8eASWTI0vExcPFnZI2tW4KJQNTjJ92ry23hjPNgFAvKO9nEb7j5itAyqHDQUz77A/exec';
+		  form.submit(function(e){
+			e.preventDefault();
+		  var jqxhr = $.ajax({
+			url: url,
+			method: "GET",
+			dataType: "json",
+			data: form.serializeObject()
+		  });
+			$(".thanks").html("Thank you for getting in touch!").css("font-size","4rem");
+			$(".form-control").remove();
+			$("#submit").remove();
+		  });
+		});
+	</script>
+
+
+<script
+src="http://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="assets/js/form-submission-handler.js"></script>
 
 </body>
 
